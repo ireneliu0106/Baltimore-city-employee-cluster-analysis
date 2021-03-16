@@ -1,2 +1,4 @@
-# Baltimore-city-employee-cluster-analysis
+# Baltimore City Employee Jobs Cluster Analysis
 Categorizing jobs in Baltimore city government by years worked, gross pay, and annual pay in FY2020
+## Background
+Based on the [finding of The Baltimore Sun](https://www.baltimoresun.com/maryland/baltimore-city/bs-md-ci-consent-decree-report-20200122-pth324df5vexxbrzyn7m6ebzwy-story.html), Baltimore city government, especially Baltimore police department, is experiencing shortages in employees and high turnover rates. Such phenomeon has caused delay in critical reforms and other essential affairs. In addition, high turnover rates can result in other negative consequences such as loss of valuable skills in the organization and loss of morale and trust in the teams. This analysis will focus on grouping various jobs in Baltimore city government based on years the employees worked, gross pay, and annual pay in FY2020 to further analyze strategies Baltimore city government can execute in order to retain employees and better allocate their budgets.
