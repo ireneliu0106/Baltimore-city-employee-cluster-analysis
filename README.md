@@ -12,16 +12,18 @@ Here are the [Excel file for data analysis] and the [step-by-step descriptions o
 
 The dataset does not explicitly contain the data for years worked in Baltimore city government of each employee. Therefore, it was calculated by subtracting 3/18/2021 by the hire date of each employee. 4 anchor nodes were used in the cluster analysis to categorize the jobs into 4 main groups with different characteristics of years worked, gross pay, and annual salary. 
 
-### __What are the characteristics of each cluster?__
+### What are the characteristics of each cluster node?
 <img width="888" alt="Screen Shot 2021-03-16 at 12 53 29 PM" src="https://user-images.githubusercontent.com/70459912/111348466-9df01b00-8656-11eb-80de-7d61b8f12db3.png">
 <img width="1180" alt="Screen Shot 2021-03-16 at 12 54 07 PM" src="https://user-images.githubusercontent.com/70459912/111348561-b4967200-8656-11eb-9ca0-5e3f59039fe2.png">
 
-As shown in the graph, _cluster 1_ with anchor node of the job Control System Operator is characterized by the low years worked in Baltimore city government, lowest gross pay, and lowest annual salaries. The z scores of all three variables in this cluster are negative, meaning that the jobs fall in cluster 1 have years worked, gross pay, and annual salaries in FY2020 lower than the mean. There are total of 503 jobs (48.8%) in this cluster.
+As shown in the graph, _cluster 1 node_, which is Control System Operator, is characterized by the low years worked in Baltimore city government, lowest gross pay, and lowest annual salaries. The z scores of all three variables in for this cluster node are negative, meaning that the jobs fall in cluster 1 have years worked, gross pay, and annual salaries in FY2020 lower than the mean. There are total of 503 jobs (48.8%) in this cluster.
 
-On the other hand, _cluster 2_ with anchor node of the job F&P Benefits Analyst Superviser has negative z scores for years worked and positive z scores for gross pay and annual salaries in FY2020. There are 267 jobs in this cluster, representing 25.9% of the jobs in Baltimore city government.
+On the other hand, _cluster 2 node_, which is F&P Benefits Analyst Superviser, has negative z scores for years worked and positive z scores for gross pay and annual salaries in FY2020. Although the gross pay and annual salary are higher than the mean, the years the employee work in Baltimore city government is still less than the mean. There are 267 jobs in this cluster, representing 25.9% of the jobs in Baltimore city government.
 
-In _cluster 3_, the anchor node is Mechanical Maintenance Technical Superviser II, which has positive z scores for years worked, gross pay, and annual salaries in FY2020. It has the highest years worked among all the cluster, but has lower gross pay and annual salaries than that of cluster 2 and 4. There are 179 jobs in this category, representing 17.4% of the jobs in Baltimore city government.
+_Cluster 3 node_, which is Mechanical Maintenance Technical Superviser II, has positive z scores for years worked, gross pay, and annual salaries in FY2020. It has the highest years worked among all the cluster nodes, but has lower gross pay and annual salaries than that of cluster 2 and 4 nodes. Jobs in this cluster have high retention rate even when the pay is not as high. There are 179 jobs in this category, representing 17.4% of the jobs in Baltimore city government.
 
-Lastly, in _cluster 4_, the z-scores for years worked is the lowest while the z scores for gross pay and annual salaries in FY2020 is the highest among all the clusters. This means that jobs in this category have the highest pay, but the retention rate is still low. There are total of 82 jobs (7.95%) in this cluster.
+Lastly, _cluster 4 node_, which is finance project manager, has lowest z-scores for years worked and highest z scores for gross pay and annual salaries in FY2020 among all the clusters. This means that jobs in this cluster have the highest pay, but the retention rate is still low. There are total of 82 jobs (7.95%) in this cluster.
+
+### How is 
 
 
