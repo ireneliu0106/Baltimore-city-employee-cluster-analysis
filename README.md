@@ -9,16 +9,19 @@ The Baltimore employee salaries dataset was downloaded from [Baltimore Open Data
 This [dataset](https://github.com/ireneliu0106/Baltimore-city-employee-cluster-analysis/blob/main/Baltimore_Employee_Salaries.xlsx) includes information about Baltimore city employee, including their names, agency ID, agency name, job title, hire date, gross pay, annual salary, fiscal year, etc.
 ## Data Analysis
 Here are the [Excel file for data analysis] and the [step-by-step descriptions of Excel data analysis]
-__What are the characteristics of each cluster?__
+
+The dataset does not explicitly contain the data for years worked in Baltimore city government of each employee. Therefore, it was calculated by subtracting 3/18/2021 by the hire date of each employee. 4 anchor nodes were used in the cluster analysis to categorize the jobs into 4 main groups with different characteristics of years worked, gross pay, and annual salary. 
+
+### __What are the characteristics of each cluster?__
 <img width="888" alt="Screen Shot 2021-03-16 at 12 53 29 PM" src="https://user-images.githubusercontent.com/70459912/111348466-9df01b00-8656-11eb-80de-7d61b8f12db3.png">
 <img width="1180" alt="Screen Shot 2021-03-16 at 12 54 07 PM" src="https://user-images.githubusercontent.com/70459912/111348561-b4967200-8656-11eb-9ca0-5e3f59039fe2.png">
 
-As shown in the graph, cluster 1 with anchor node of the job Control System Operator is characterized by the low years worked in Baltimore city government, lowest gross pay, and lowest annual salaries. The z scores of all three variables in this cluster are negative, meaning that the jobs fall in cluster 1 have years worked, gross pay, and annual salaries in FY2020 lower than the mean. There are total of 503 jobs (48.8%) in this cluster.
+As shown in the graph, _cluster 1_ with anchor node of the job Control System Operator is characterized by the low years worked in Baltimore city government, lowest gross pay, and lowest annual salaries. The z scores of all three variables in this cluster are negative, meaning that the jobs fall in cluster 1 have years worked, gross pay, and annual salaries in FY2020 lower than the mean. There are total of 503 jobs (48.8%) in this cluster.
 
-On the other hand, cluster 2 with anchor node of the job F&P Benefits Analyst Superviser has negative z scores for years worked and positive z scores for gross pay and annual salaries in FY2020. There are 267 jobs in this cluster, representing 25.9% of the jobs in Baltimore city government.
+On the other hand, _cluster 2_ with anchor node of the job F&P Benefits Analyst Superviser has negative z scores for years worked and positive z scores for gross pay and annual salaries in FY2020. There are 267 jobs in this cluster, representing 25.9% of the jobs in Baltimore city government.
 
-In cluster 3, the anchor node is Mechanical Maintenance Technical Superviser II, which has positive z scores for years worked, gross pay, and annual salaries in FY2020. It has the highest years worked among all the cluster, but has lower gross pay and annual salaries than that of cluster 2 and 4. There are 179 jobs in this category, representing 17.4% of the jobs in Baltimore city government.
+In _cluster 3_, the anchor node is Mechanical Maintenance Technical Superviser II, which has positive z scores for years worked, gross pay, and annual salaries in FY2020. It has the highest years worked among all the cluster, but has lower gross pay and annual salaries than that of cluster 2 and 4. There are 179 jobs in this category, representing 17.4% of the jobs in Baltimore city government.
 
-Lastly, in cluster 4, the z-scores for years worked is the lowest while the z scores for gross pay and annual salaries in FY2020 is the highest among all the clusters. This means that jobs in this category have the highest pay, but the retention rate is still low. There are total of 82 jobs (7.95%) in this cluster.
+Lastly, in _cluster 4_, the z-scores for years worked is the lowest while the z scores for gross pay and annual salaries in FY2020 is the highest among all the clusters. This means that jobs in this category have the highest pay, but the retention rate is still low. There are total of 82 jobs (7.95%) in this cluster.
 
 
