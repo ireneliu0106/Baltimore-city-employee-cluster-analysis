@@ -5,5 +5,6 @@ Based on the [finding of The Baltimore Sun](https://www.baltimoresun.com/marylan
 ## Business Question
 How can Baltimore city jobs be categorized based on years worked, gross pay, and annual pay in FY 2020 and what strategies can Baltimore city government execute to encourage higher retention rate and better distribute their budgets based on this analysis?
 ## Open Data
-The Baltimore employee salaries dataset was downloaded from [Baltimore Open Data](https://data.baltimorecity.gov/datasets/baltimore-employee-salaries/data)
+The Baltimore employee salaries dataset was downloaded from [Baltimore Open Data](https://data.baltimorecity.gov/).
+This dataset included information about Baltimore city employee, including their names, 
 
