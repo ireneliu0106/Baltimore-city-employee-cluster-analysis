@@ -1,0 +1,24 @@
+1. Download Baltimore employee salaries dataset from Baltimore open data.
+2. Add a column in the dataset called Length, and subtract the hire date of each employee by 3/18/2021.
+3. Add a column in the dataset called LengthInYear, and divide the values in Length by 365.
+4. Insert a pivot table in a new worksheet with job titles as row, length in year, annual salary, and gross pay as values. Change the values from sum to average.
+5. Drag FiscalYears in Filters and only check FY2020.
+6. Copy the pivot table to a new worksheet called cluster_data and leave a few empty rows on top for cluster analysis and an empty column on the left. In the empty column, number each job title. 
+7. Calculate the means and standard deviations of length in years, annual salary, and gross pay.
+8. In new columns, standardize the values of length in years, annual salary, and gross pay (z scores) with means and standard deviations we just calculated.
+9. In the empty rows on top, type Cluster #, Cluster Anchor Job Title, Cluster Anchor Number, z_LengthInYear, z_AnnualSalary, and z_GrossPay as column headers.
+10. In the cluster anchor number column, type in 4 random numbers as anchor nodes.
+11. In cluster anchor job title column, use vlookup to find the job titles that correspond to the 4 anchor nodes in cluster anchor number column.
+12. Similarly, use vlookup to find the corresponding z_LengthInYear, z_AnnualSalary, and z_GrossPay for the 4 anchor nodes.
+13. In new columns, use SUMXMY2 function to find the squared distances between z_LengthInYear, z_AnnualSalary, and z_GrossPay to each of the 4 anchor nodes.
+14. In a new column, find the minimum squared distance among those values with MIN function.
+15. In a new column, use the MATCH function to match the minimum squared distance with squared distance. This tells you which cluster it belongs to. 
+16. In a cell, calculate the sum of minimum squared distances.
+17. Go to data -> solver, set objective as the cell with minimum squared distances and select min in the line below.
+18. In the "by changing variable cells", select the cells with the 4 anchor nodes you picked.
+19. Click add to insert constraints for the variable cells. The constraints include the values of the variable cells being integers, larger than 1, and less than the total data points. 
+20. Set the solving method as evolutionary. Click Options -> evolutionary and change the mutation rate to 0.5, then click solve to find the actual anchor nodes. Save these solved values in the cells. 
+21. Generate bar graphs for the z scores of each anchor nodes. 
+22. Copy the table with the original values, z scores, squared distances, and cluster anchor number to a new worksheet. Add filter on the column headers and sort the column of cluster anchor number from small to large.
+23. Insert a scatter plot with gross pay as x axis and years worked as y axis. Separate different clusters into different series, so they will appear as different colors on the plot.
+24. Create another pivot table in a new worksheet. Drag cluster anchor number to rows, job titles, length in years, annual salary, and gross pay to values. Job title value should be in count, and the other three should be in averages. 
