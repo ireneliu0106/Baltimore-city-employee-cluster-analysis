@@ -8,7 +8,7 @@ How can jobs in Baltimore city be categorized based on years worked, gross pay, 
 The Baltimore employee salaries dataset was downloaded from [Baltimore Open Data](https://data.baltimorecity.gov/).
 This [dataset](https://github.com/ireneliu0106/Baltimore-city-employee-cluster-analysis/blob/main/Baltimore_Employee_Salaries.xlsx) includes information about Baltimore city employee, including their names, agency ID, agency name, job title, hire date, gross pay, annual salary, fiscal year, etc.
 ## Data Analysis
-Here are the [Excel file for data analysis] and the [step-by-step descriptions of Excel data analysis](https://github.com/ireneliu0106/Baltimore-city-employee-cluster-analysis/blob/main/Step-by-step%20instructions%20of%20Excel%20data%20analysis).
+Here are the [Excel file for data analysis](https://docs.google.com/spreadsheets/d/1FQ_T5B3DgJxvdcyidbgYGleJtXi2j8gf/edit#gid=1940050131) and the [step-by-step descriptions of Excel data analysis](https://github.com/ireneliu0106/Baltimore-city-employee-cluster-analysis/blob/main/Step-by-step%20instructions%20of%20Excel%20data%20analysis).
 
 The dataset does not explicitly contain the data for years worked in Baltimore city government of each employee. Therefore, it was calculated by subtracting 3/18/2021 by the hire date of each employee. Pivot table was generated to find the average years worked, gross pay, and annual salary in FY2020 of employees for each job. 4 anchor nodes were used in the cluster analysis. 
 
@@ -33,5 +33,3 @@ Similar results to the analysis of nodes can be drawn here. As shown in the grap
 
 ## Business Answer
 Based on the analysis, it is interesting to see that higher salary won't necessarily retain more employees. In cluster 4, although these jobs are well paid, the years worked is still below average, while in cluster 3, the employees tend to stay longer at the job even though the pay is quite low. To understand the reasons behind such unintuitive phenomena, the Baltimore police department can investigate other variables such as hours worked per day, benefits, work culture, etc. of jobs that fall in cluster 3 to see if there are any particular reasons for high retention rates. Baltimore city government can also look into the reasons why the jobs in cluster 4 have high turnover rates even though the pay is competitive. With these further research, the Baltimore city government can better correlate employee retention rate with other variables and design policies to encourage employees to stay at their jobs and boost productivity.    
-
-
